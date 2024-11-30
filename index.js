@@ -12,7 +12,7 @@ import {app,server} from "./socket/socket.js"
 app.use(express.json())
 
 const corsOption = {
-    origin:"http://localhost:5173",
+    origin:"https://chatterrs.netlify.app",
     methods:"GET, POST, PATCH, DELETE",
     Credentials:true
 }
