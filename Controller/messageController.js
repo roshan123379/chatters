@@ -53,7 +53,7 @@ export const getMessage = async (req, res) => {
 
         if (!chats) {
             console.log("please strat conve")
-            return res.send({msg:"please start conversation"}) ;
+            return res.send({msg:""}) ;
            
         }
 
